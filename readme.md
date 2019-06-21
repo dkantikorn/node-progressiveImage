@@ -6,3 +6,6 @@ $ npm install --global --production windows-build-tools
 
 $ npm install --save sharp
 
+## Documentation
+http://sharp.pixelplumbing.com
+
