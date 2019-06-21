@@ -1,12 +1,12 @@
 const sharp = require("sharp");
-const image = sharp("./public/dist/190426165710415728.jpg");
+const image = sharp("./public/dist/social_image.jpg");
 image
   .jpeg({
     progressive: true,
     quality: 90
   })
   .toFile(
-    "./public/dist/progressive-190426165710415728.jpg",
+    "./public/dist/progressive-social_image.jpg",
     (err, success) => {
       if(err){
         console.log('===  process error ===');
